@@ -41,11 +41,7 @@ public class ModItems {
                             .build())));
 
     public static final RegistryObject<Item> DRIED_RED_MUSHROOM = ITEMS.register("dried_red_mushroom",
-            () -> new Item(new Item.Properties()
-                    .food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.15f)
-                            .build())));
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> LIONS_MANE = ITEMS.register("lions_mane",
             () -> new Item(new Item.Properties()
@@ -81,18 +77,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHANTERELLE = ITEMS.register("chanterelle",
             () -> new FoodBlockItem(ModBlocks.CHANTERELLE_BLOCK.get(),
-                    new Item.Properties()
-                            .food(new FoodProperties.Builder()
-                                    .nutrition(3)
-                                    .saturationMod(0.2f)
-                                    .build())));
+                    new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_CHANTERELLE = ITEMS.register("dried_chanterelle",
-            () -> new Item(new Item.Properties()
-                    .food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.15f)
-                            .build())));
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DUNG = ITEMS.register("dung", () -> new DungProjectileItem(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> TURTLE_DUNG = ITEMS.register("turtle_dung", () -> new DungProjectileItem(new Item.Properties().stacksTo(16)));
@@ -200,59 +188,27 @@ public class ModItems {
 
     public static final RegistryObject<Item> SHIITAKE = ITEMS.register("shiitake",
             () -> new FoodBlockItem(ModBlocks.SHIITAKE_BLOCK.get(),
-                    new Item.Properties()
-                            .food(new FoodProperties.Builder()
-                                    .nutrition(3)
-                                    .saturationMod(0.2f)
-                                    .build())));
+                    new Item.Properties()));
     public static final RegistryObject<Item> DRIED_SHIITAKE = ITEMS.register("dried_shiitake",
-            () -> new Item(new Item.Properties()
-                    .food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.15f)
-                            .build())));
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> KING_TRUMPET = ITEMS.register("king_trumpet",
             () -> new FoodBlockItem(ModBlocks.KING_TRUMPET_BLOCK.get(),
-                    new Item.Properties()
-                            .food(new FoodProperties.Builder()
-                                    .nutrition(3)
-                                    .saturationMod(0.2f)
-                                    .build())));
+                    new Item.Properties()));
     public static final RegistryObject<Item> DRIED_KING_TRUMPET = ITEMS.register("dried_king_trumpet",
-            () -> new Item(new Item.Properties()
-                    .food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.15f)
-                            .build())));
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> PORTOBELLO = ITEMS.register("portobello",
             () -> new FoodBlockItem(ModBlocks.PORTOBELLO_BLOCK.get(),
-                    new Item.Properties()
-                            .food(new FoodProperties.Builder()
-                                    .nutrition(3)
-                                    .saturationMod(0.2f)
-                                    .build())));
+                    new Item.Properties()));
     public static final RegistryObject<Item> DRIED_PORTOBELLO = ITEMS.register("dried_portobello",
-            () -> new Item(new Item.Properties()
-                    .food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.15f)
-                            .build())));
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MOREL = ITEMS.register("morel",
             () -> new FoodBlockItem(ModBlocks.MOREL_BLOCK.get(),
-                    new Item.Properties()
-                            .food(new FoodProperties.Builder()
-                                    .nutrition(3)
-                                    .saturationMod(0.2f)
-                                    .build())));
+                    new Item.Properties()));
     public static final RegistryObject<Item> DRIED_MOREL = ITEMS.register("dried_morel",
-            () -> new Item(new Item.Properties()
-                    .food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.15f)
-                            .build())));
+            () -> new Item(new Item.Properties()));
 
 
 
