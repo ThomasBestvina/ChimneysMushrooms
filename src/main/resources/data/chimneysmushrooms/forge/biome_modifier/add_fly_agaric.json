@@ -1,0 +1,6 @@
+{
+    "type":  "forge:add_features",
+    "biomes":  "#chimneysmushrooms:has_feature/fly_agaric_secondary",
+    "features":  "chimneysmushrooms:fly_agaric_placed",
+    "step":  "vegetal_decoration"
+}

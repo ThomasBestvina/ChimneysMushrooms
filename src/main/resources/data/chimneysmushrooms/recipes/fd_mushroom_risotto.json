@@ -1,0 +1,36 @@
+{
+    "type":  "forge:conditional",
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "farmersdelight"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "type":  "farmersdelight:cooking",
+                                        "container": {
+                                          "item": "minecraft:bowl"
+                                        },
+                                        "cookingtime": 200,
+                                       "category":  "food",
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "farmersdelight:rice"
+                                                           },
+                                                           {
+                                                               "item":  "farmersdelight:onion"
+                                                           },
+                                                           {
+                                                               "tag":  "forge:mushrooms"
+                                                           }
+                                                       ],
+                                       "result":  {
+                                                      "item":  "chimneysmushrooms:mushroom_risotto",
+                                                      "count":  1
+                                                  }
+                                   }
+                    }
+                ]
+}

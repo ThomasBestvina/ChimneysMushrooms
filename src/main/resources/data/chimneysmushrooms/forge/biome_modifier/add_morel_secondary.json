@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#chimneysmushrooms:has_feature/morel_secondary",
+  "features": "chimneysmushrooms:morel_secondary_placed",
+  "step": "vegetal_decoration"
+}

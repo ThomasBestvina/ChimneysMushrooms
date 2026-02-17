@@ -1,0 +1,6 @@
+{
+    "type":  "forge:add_features",
+    "biomes":  "#chimneysmushrooms:has_feature/russula_secondary",
+    "features":  "chimneysmushrooms:russula_placed",
+    "step":  "vegetal_decoration"
+}

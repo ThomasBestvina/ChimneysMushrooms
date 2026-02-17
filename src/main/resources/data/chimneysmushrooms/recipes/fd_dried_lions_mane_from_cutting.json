@@ -1,0 +1,30 @@
+{
+    "type":  "forge:conditional",
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "farmersdelight"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "type":  "farmersdelight:cutting",
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "chimneysmushrooms:lions_mane"
+                                                           }
+                                                       ],
+                                       "tool":  {
+                                                    "tag":  "forge:tools/knives"
+                                                },
+                                       "result":  [
+                                                      {
+                                                          "item":  "chimneysmushrooms:dried_lions_mane",
+                                                          "count":  1
+                                                      }
+                                                  ]
+                                   }
+                    }
+                ]
+}

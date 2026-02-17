@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#chimneysmushrooms:has_feature/chanterelle_secondary",
+  "features": "chimneysmushrooms:chanterelle_placed",
+  "step": "vegetal_decoration"
+}

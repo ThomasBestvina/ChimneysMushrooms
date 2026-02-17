@@ -1,0 +1,22 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "one",
+    "dstrgb": "zero"
+  },
+  "vertex": "sobel",
+  "fragment": "chimneysmushrooms:freedom_cap",
+  "attributes": [ "Position" ],
+  "samplers": [
+    { "name": "DiffuseSampler" }
+  ],
+  "uniforms": [
+    { "name": "ProjMat",      "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "InSize",       "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
+    { "name": "OutSize",      "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
+    { "name": "TripTime",     "type": "float",     "count": 1,  "values": [ 0.0 ] },
+    { "name": "Intensity",    "type": "float",     "count": 1,  "values": [ 0.0 ] },
+    { "name": "TripSeed",     "type": "float",     "count": 1,  "values": [ 0.0 ] },
+    { "name": "ShowFlag",     "type": "float",     "count": 1,  "values": [ 1.0 ] }
+  ]
+}

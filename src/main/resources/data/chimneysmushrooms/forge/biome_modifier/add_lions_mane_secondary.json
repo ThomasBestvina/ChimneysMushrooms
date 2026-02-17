@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#chimneysmushrooms:has_feature/lions_mane_secondary",
+  "features": "chimneysmushrooms:lions_mane_secondary_placed",
+  "step": "vegetal_decoration"
+}

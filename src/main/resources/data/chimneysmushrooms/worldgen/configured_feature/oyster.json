@@ -1,0 +1,54 @@
+{
+  "type": "chimneysmushrooms:log_mushroom",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "chimneysmushrooms:oyster_cluster",
+            "Properties": {
+              "facing": "north",
+              "growth_stage": "0",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "chimneysmushrooms:oyster_cluster",
+            "Properties": {
+              "facing": "north",
+              "growth_stage": "1",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "chimneysmushrooms:oyster_cluster",
+            "Properties": {
+              "facing": "north",
+              "growth_stage": "2",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "chimneysmushrooms:oyster_cluster",
+            "Properties": {
+              "facing": "north",
+              "growth_stage": "3",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

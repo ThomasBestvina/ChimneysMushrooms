@@ -1,0 +1,6 @@
+{
+    "type":  "forge:add_features",
+    "biomes":  "#chimneysmushrooms:has_feature/death_cap_secondary",
+    "features":  "chimneysmushrooms:death_cap_placed",
+    "step":  "vegetal_decoration"
+}

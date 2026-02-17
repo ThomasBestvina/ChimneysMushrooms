@@ -1,0 +1,36 @@
+{
+    "type":  "forge:conditional",
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "farmersdelight"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "type":  "farmersdelight:cooking",
+                                       "category":  "food",
+                                        "cookingtime": 200,
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "farmersdelight:cabbage"
+                                                           },
+                                                           {
+                                                               "item":  "minecraft:bread"
+                                                           },
+                                                           {
+                                                               "tag":  "forge:mushrooms"
+                                                           },
+                                                           {
+                                                               "tag":  "forge:mushrooms"
+                                                           }
+                                                       ],
+                                       "result":  {
+                                                      "item":  "chimneysmushrooms:stuffed_mushrooms",
+                                                      "count":  2
+                                                  }
+                                   }
+                    }
+                ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "forge:conditional",
+    "recipes": [
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "farmersdelight"
+                }
+            ],
+            "recipe": {
+                "type": "farmersdelight:cutting",
+                "ingredients": [
+                    {
+                        "item": "minecraft:red_mushroom"
+                    }
+                ],
+                "tool": {
+                    "tag": "forge:tools/knives"
+                },
+                "result": [
+                    {
+                        "item": "chimneysmushrooms:dried_red_mushroom",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    ]
+}

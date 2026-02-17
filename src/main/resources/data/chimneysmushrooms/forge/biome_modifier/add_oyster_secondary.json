@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#chimneysmushrooms:has_feature/oyster_secondary",
+  "features": "chimneysmushrooms:oyster_secondary_placed",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:mushroom_fields",
+  "features": "chimneysmushrooms:chanterelle_mushroom_fields_placed",
+  "step": "vegetal_decoration"
+}

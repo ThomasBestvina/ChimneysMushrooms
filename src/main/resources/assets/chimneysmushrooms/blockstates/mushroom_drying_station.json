@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chimneysmushrooms:block/mushroom_drying_station"
+    },
+    "facing=south": {
+      "model": "chimneysmushrooms:block/mushroom_drying_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chimneysmushrooms:block/mushroom_drying_station",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "chimneysmushrooms:block/mushroom_drying_station",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "chimneysmushrooms:portobello_cluster",
+                  "Properties": {
+                    "facing": "up",
+                    "growth_stage": "0",
+                    "waterlogged": "false"
+                  }
+                },
+                "weight": 3
+              },
+              {
+                "data": {
+                  "Name": "chimneysmushrooms:portobello_cluster",
+                  "Properties": {
+                    "facing": "up",
+                    "growth_stage": "1",
+                    "waterlogged": "false"
+                  }
+                },
+                "weight": 3
+              },
+              {
+                "data": {
+                  "Name": "chimneysmushrooms:portobello_cluster",
+                  "Properties": {
+                    "facing": "up",
+                    "growth_stage": "2",
+                    "waterlogged": "false"
+                  }
+                },
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "chimneysmushrooms:portobello_cluster",
+                  "Properties": {
+                    "facing": "up",
+                    "growth_stage": "3",
+                    "waterlogged": "false"
+                  }
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "chimneysmushrooms:portobello_block"
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 5,
+    "xz_spread": 1,
+    "y_spread": 1
+  }
+}

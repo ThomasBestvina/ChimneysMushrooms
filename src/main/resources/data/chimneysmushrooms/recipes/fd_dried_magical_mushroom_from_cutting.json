@@ -1,0 +1,30 @@
+{
+    "type":  "forge:conditional",
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "farmersdelight"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "type":  "farmersdelight:cutting",
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "chimneysmushrooms:magical_mushroom"
+                                                           }
+                                                       ],
+                                       "tool":  {
+                                                    "tag":  "forge:tools/knives"
+                                                },
+                                       "result":  [
+                                                      {
+                                                          "item":  "chimneysmushrooms:dried_magical_mushroom",
+                                                          "count":  1
+                                                      }
+                                                  ]
+                                   }
+                    }
+                ]
+}

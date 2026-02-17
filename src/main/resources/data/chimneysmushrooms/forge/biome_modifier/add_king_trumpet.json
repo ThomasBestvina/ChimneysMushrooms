@@ -1,0 +1,6 @@
+{
+    "type":  "forge:add_features",
+    "biomes":  "#chimneysmushrooms:has_feature/king_trumpet_secondary",
+    "features":  "chimneysmushrooms:king_trumpet_placed",
+    "step":  "vegetal_decoration"
+}

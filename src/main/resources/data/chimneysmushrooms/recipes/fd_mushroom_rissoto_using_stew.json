@@ -1,0 +1,32 @@
+{
+  "type":  "forge:conditional",
+  "recipes":  [
+        {
+          "conditions":  [
+                               {
+                                   "type":  "forge:mod_loaded",
+                                   "modid":  "farmersdelight"
+                               }
+                           ],
+      "recipe":  {
+        "type":  "farmersdelight:cooking",
+        "category":  "food",
+        "cookingtime": 200,
+        "ingredients":  [
+          {
+            "item":  "chimneysmushrooms:rustic_mushroom_stew"
+          },
+          {
+            "item":  "farmersdelight:rice"
+          },
+          {
+            "item":  "farmersdelight:onion"
+          }
+        ],
+        "result":  {
+          "item":  "chimneysmushrooms:mushroom_risotto",
+          "count":  1
+        }
+      }}
+  ]
+}

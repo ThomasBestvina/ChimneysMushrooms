@@ -1,0 +1,30 @@
+{
+    "type":  "forge:conditional",
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "farmersdelight"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "type":  "farmersdelight:cutting",
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "chimneysmushrooms:king_trumpet"
+                                                           }
+                                                       ],
+                                       "tool":  {
+                                                    "tag":  "forge:tools/knives"
+                                                },
+                                       "result":  [
+                                                      {
+                                                          "item":  "chimneysmushrooms:dried_king_trumpet",
+                                                          "count":  1
+                                                      }
+                                                  ]
+                                   }
+                    }
+                ]
+}

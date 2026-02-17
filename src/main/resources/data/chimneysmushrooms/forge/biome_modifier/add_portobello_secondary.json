@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#chimneysmushrooms:has_feature/portobello_secondary",
+  "features": "chimneysmushrooms:portobello_secondary_placed",
+  "step": "vegetal_decoration"
+}

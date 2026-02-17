@@ -1,0 +1,34 @@
+{
+    "type":  "forge:conditional",
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "farmersdelight"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "type":  "farmersdelight:cooking",
+                                       "category":  "food",
+                                        "cookingtime": 200,
+
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "farmersdelight:raw_pasta"
+                                                           },
+                                                           {
+                                                               "item":  "farmersdelight:tomato_sauce"
+                                                           },
+                                                           {
+                                                               "tag":  "forge:mushrooms"
+                                                           }
+                                                       ],
+                                       "result":  {
+                                                      "item":  "chimneysmushrooms:creamy_mushroom_pasta",
+                                                      "count":  1
+                                                  }
+                                   }
+                    }
+                ]
+}
