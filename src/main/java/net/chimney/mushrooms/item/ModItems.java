@@ -112,21 +112,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> FLY_AGARIC = ITEMS.register("fly_agaric",
             () -> new FoodBlockItem(ModBlocks.FLY_AGARIC_BLOCK.get(),
-                    new Item.Properties()
-                            .food(new FoodProperties.Builder()
-                                    .nutrition(3)
-                                    .saturationMod(0.2f)
-                                    .effect(() -> new MobEffectInstance(net.minecraft.world.effect.MobEffects.CONFUSION, 200, 0), 0.5f)
-                                    .alwaysEat()
-                                    .build())));
+                    new Item.Properties()));
     public static final RegistryObject<Item> DRIED_FLY_AGARIC = ITEMS.register("dried_fly_agaric",
-            () -> new Item(new Item.Properties()
-                    .food(new FoodProperties.Builder()
-                            .nutrition(2)
-                            .saturationMod(0.15f)
-                            .effect(() -> new MobEffectInstance(net.minecraft.world.effect.MobEffects.CONFUSION, 200, 0), 0.5f)
-                            .alwaysEat()
-                            .build())));
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DEATH_CAP = ITEMS.register("death_cap",
             () -> new FoodBlockItem(ModBlocks.DEATH_CAP_BLOCK.get(),
