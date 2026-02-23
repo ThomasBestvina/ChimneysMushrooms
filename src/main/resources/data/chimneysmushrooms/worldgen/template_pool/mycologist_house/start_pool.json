@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "chimneysmushrooms:mycologist_house",
-        "processors": "minecraft:empty",
+        "processors": "chimneysmushrooms:mycologist_house_processor",
         "projection": "rigid"
       }
     }

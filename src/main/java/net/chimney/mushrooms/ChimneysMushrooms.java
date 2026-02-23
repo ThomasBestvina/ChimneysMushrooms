@@ -14,6 +14,7 @@ import net.chimney.mushrooms.recipe.ModRecipeSerializers;
 import net.chimney.mushrooms.recipe.ModRecipeTypes;
 import net.chimney.mushrooms.villager.ModVillagers;
 import net.chimney.mushrooms.worldgen.ModFeatures;
+import net.chimney.mushrooms.worldgen.structure.processor.ModStructureProcessorTypes;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
@@ -59,6 +60,7 @@ public class ChimneysMushrooms
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
         ModVillagers.register(modEventBus);
+        ModStructureProcessorTypes.register(modEventBus);
 
         ModRecipeTypes.RECIPE_TYPES.register(modEventBus);
         ModRecipeSerializers.SERIALIZERS.register(modEventBus);
