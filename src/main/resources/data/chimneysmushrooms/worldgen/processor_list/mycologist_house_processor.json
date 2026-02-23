@@ -1,0 +1,7 @@
+{
+  "processors": [
+    {
+      "processor_type": "chimneysmushrooms:mycologist_house_processor"
+    }
+  ]
+}
